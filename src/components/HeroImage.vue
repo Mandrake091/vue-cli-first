@@ -10,11 +10,9 @@ export default {
 <style scoped>
 .jumbotron{
     height: 50vh;
-    width: 600px ;
+    width: 100%;
     background-image: url('https://picsum.photos/600/400'); 
     background-repeat: no-repeat;
-    background-size: contain;
-    margin: 0 auto;
-
+    background-size: cover;    
 }
 </style>
