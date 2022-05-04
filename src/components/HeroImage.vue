@@ -8,11 +8,13 @@ export default {
 }
 </script>
 <style scoped>
-.jumbotron{
-    height: 50vh;
-    width: 100%;
-    background-image: url('https://picsum.photos/600/400'); 
+.jumbotron  {
+    height: 99vh;
+    width: 99vw;
+    background-image: url('https://picsum.photos/2048/1080'); 
     background-repeat: no-repeat;
-    background-size: cover;    
+    background-size: cover;   
+    position: absolute; 
+    filter: brightness(50%) blur(5px);
 }
 </style>
