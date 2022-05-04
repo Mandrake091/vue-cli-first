@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <MainTitle/>
-       {{titolo}}
     <HeroImage/>
   </div>
   
